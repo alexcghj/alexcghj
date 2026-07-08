@@ -60,7 +60,3 @@ measure it honestly, and how to defend them.
 - Comfortable going deep: from bit-level cipher implementations in C to
   statistical evaluation of language models in Python.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alexcghj&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexcghj&layout=compact&hide_border=true" alt="Top languages" height="150">
-</p>
