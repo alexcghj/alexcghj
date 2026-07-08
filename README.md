@@ -1,62 +1,66 @@
-# Aleksandr Kuleshov
+<h1 align="center">Aleksandr Kuleshov</h1>
 
-Student in information-analytical security systems with a focus on Python backend development, AI-powered systems and machine learning security.
+<p align="center">
+  CS student at Peter the Great St. Petersburg Polytechnic University ·
+  Python & ML · AI security research
+</p>
 
-I am interested in building reliable backend services for applied AI products: REST APIs, asynchronous integrations, data processing pipelines, database-backed applications and LLM-based assistants.
+<p align="center">
+  <a href="https://orcid.org/0009-0001-7197-8001">
+    <img src="https://img.shields.io/badge/ORCID-0009--0001--7197--8001-A6CE39?logo=orcid&logoColor=white" alt="ORCID">
+  </a>
+</p>
 
-## Technical Focus
+---
 
-* Python backend development
-* FastAPI and REST API design
-* Asynchronous programming with `asyncio` and `aiohttp`
-* SQL, PostgreSQL and SQLAlchemy
-* Data collection, parsing, logging and analytics
-* LLM integration and AI assistant architecture
-* Machine learning security and adversarial robustness
-* Applied cryptography and secure software design
+I build things at two ends of the stack: low-level systems and algorithms in
+**C**, and machine learning and LLM tooling in **Python**. Lately my focus has
+been the **security of small language-model agents** — how they break, how to
+measure it honestly, and how to defend them.
 
-## Technologies
+### What I work on
 
-**Languages:** Python, C, C++
-**Backend:** FastAPI, aiohttp, SQLAlchemy, REST API
-**Databases:** PostgreSQL, SQL, Alembic
-**Data / ML:** pandas, NumPy, TensorFlow/Keras, scikit-learn
-**Tools:** Git, Docker, Linux, Makefile, pytest
-**Security / AI:** prompt injection, ML robustness, applied cryptography, LLM-based systems
+- **AI / LLM security.** Independent research on how quantization, model size,
+  architecture, and attack style affect the vulnerability of small LLM agents
+  to indirect prompt injection — 14 model configurations, 14k+ rollouts, real
+  statistics, cross-checked on an external benchmark.
+- **Machine learning.** Sequence models and prediction — e.g. LSTM-based
+  trajectory forecasting on GPS data.
+- **Systems & algorithms in C.** Data structures, text processing, and
+  cryptography built from the ground up (AVL trees, GOST ciphers, custom
+  sorting, RPN evaluation).
 
-## Selected Projects
+### Selected projects
 
-### AI Assistant Backend
+| Project | What it is | Stack |
+|---|---|---|
+| **qllm-agent-security** | Systematic study of prompt-injection vulnerability in small LLM agents; full harness, 4-outcome scorer, statistics, paper | Python, Ollama |
+| **geolife-lstm-prediction** | LSTM model for predicting GPS movement trajectories | Python, PyTorch |
+| **password-manager (Magma & Kuznyechik)** | Password manager built on the Russian GOST block ciphers | C |
+| **book-catalog (AVL tree)** | Book catalog backed by a self-balancing AVL tree | C |
+| **large-volume-text-processing** | Efficient processing of large text volumes | C |
+| **RPN calculator** | Expression calculator via reverse Polish notation | C |
 
-Backend service for an internal AI assistant.
+### Tech
 
-The project is focused on production-style backend development for AI systems: REST API, asynchronous LLM integration, PostgreSQL persistence, request logging, analytics and background task processing.
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
-**Planned stack:** FastAPI, SQLAlchemy, PostgreSQL, aiohttp, Celery, RabbitMQ, Docker, LLM API
-**Status:** in development
+### A bit more
 
-### GOST Password Manager
+- Interested in the intersection of **ML and security** — adversarial
+  robustness, model compression, and the failure modes of LLM-based systems.
+- Prior work includes an analysis of the Sponge Attack on ResNet-18
+  (ICNK Science Week, 2025).
+- Comfortable going deep: from bit-level cipher implementations in C to
+  statistical evaluation of language models in Python.
 
-Terminal password manager written in C with support for Russian cryptographic algorithms.
-
-The project focuses on applied cryptography, secure data storage, key handling, testing and documentation of security limitations.
-
-**Stack:** C, Makefile, cryptographic primitives, testing
-
-### GeoLife LSTM Prediction
-
-Machine learning project for GPS trajectory forecasting based on the Microsoft GeoLife dataset.
-
-The project includes data preprocessing, sequence modeling, LSTM-based prediction, evaluation metrics and analysis of model limitations.
-
-**Stack:** Python, TensorFlow/Keras, pandas, NumPy
-
-### AI Security Research
-
-Research-oriented work on attacks and robustness issues in machine learning and LLM-based systems.
-
-Current interests include indirect prompt injection, model efficiency attacks, adversarial robustness and security evaluation of AI agents.
-
-## Current Direction
-
-I am currently preparing for backend development roles focused on AI systems, where Python services, data processing, LLM integration and reliable software architecture are combined in real production environments.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=alexcghj&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" height="150">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexcghj&layout=compact&hide_border=true" alt="Top languages" height="150">
+</p>
